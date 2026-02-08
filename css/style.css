@@ -1,16 +1,65 @@
 body {
-    background-color: #f8f9fa;
+    background-color: #0f291e;
+    /* Darkest Green Background */
+    color: #e8f5e9;
+    /* Light Green Text */
 }
 
 .card {
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: #1b4d3e;
+    /* Dark Green Card */
+    border: 1px solid #2e7d67;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 }
 
 .card-header {
-    background-color: #ff5100;
-    color: white;
+    background-color: #2e7d67;
+    /* Medium Green Header */
+    color: #ffffff;
     font-weight: bold;
     text-align: center;
+    border-bottom: 1px solid #45a089;
+}
+
+.form-control {
+    background-color: #0f291e;
+    border: 1px solid #45a089;
+    color: #e8f5e9;
+}
+
+.form-control:focus {
+    background-color: #0f291e;
+    border-color: #66bb6a;
+    color: #ffffff;
+    box-shadow: 0 0 0 0.2rem rgba(102, 187, 106, 0.25);
+}
+
+.btn-primary {
+    background-color: #66bb6a;
+    /* Light Green Button */
+    border-color: #57a05b;
+    color: #0f291e;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #81c784;
+    border-color: #66bb6a;
+    color: #0f291e;
+}
+
+.text-muted {
+    color: #a5d6a7 !important;
+    /* Lighter Green Muted Text */
+}
+
+a {
+    color: #66bb6a;
+}
+
+a:hover {
+    color: #81c784;
+    text-decoration: none;
 }
 
 #message {
