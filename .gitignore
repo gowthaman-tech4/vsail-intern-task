@@ -1,0 +1,6 @@
+/assets/uploads/*
+!/assets/uploads/.gitkeep
+Setup_Guide_*.md
+*.log
+.DS_Store
+Thumbs.db
